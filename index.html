@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="round-counter">Round <span class="round-number">1</span></div>
+    <div class="game">
+      <div class="mini-container">
+        <div>You</div>
+        <div class="human-choice choice"></div>
+        <div class="human-score score">0</div>
+      </div>
+      <div class="mini-container">
+        <div>Computer</div>
+        <div class="computer-choice choice"></div>
+        <div class="cpu-score score">0</div>
+      </div>
+    </div>
+    <div class="choices">
+      <button title="Pick Rock" value="rock"><img src="svg/rock.svg" alt="rock"></button>
+      <button title="Pick Paper" value="paper"><img src="svg/paper.svg" alt="paper"></button>
+      <button title="Pick Scissor" value="scissor"><img src="svg/scissor.svg" alt="scissor"></button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
